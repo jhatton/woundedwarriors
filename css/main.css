@@ -116,6 +116,11 @@ footer {
 	margin-left: 20px;
 	
 }
+#links {
+	display:block;
+	width: 600px;
+	height:auto;
+}
 footer p {
 	text-align:left;
 	font-size:10px;
