@@ -23,6 +23,12 @@ h2{
 	font-size:24px;
 	color:#fff;
 }
+
+#statement {
+	display:block;
+	width: 450px;
+	height:auto;
+}
 /* -------------  Main Nav ------------ */
 nav ul {
 	
