@@ -21,7 +21,24 @@ h1 {
 }
 h2{
 	font-size:24px;
+	color:#000;
+}
+h4 {
 	color:#fff;
+	font-size:14px;
+	font-family: "Myriad Pro",  Helvetica, Arial, sans-serif;
+	position:absolute;
+	top: 515px;
+	left:160px;
+}
+
+h5 {
+	color:#fff;
+	font-size:14px;
+	font-family: "Myriad Pro",  Helvetica, Arial, sans-serif;
+	position:absolute;
+	top: 535px;
+	left:160px;
 }
 
 #statement {
@@ -86,9 +103,10 @@ article {
 	display:inline-block;
 	background-color:#bbb6ab;
 	width:260px;
-	height: 200px;
+	height: auto;
 	padding-left: 15px;
 	padding-top:5px;
+	padding-bottom: 5px;
 	float:left;
 	margin-right:37px;
 	margin-bottom: 50px;
