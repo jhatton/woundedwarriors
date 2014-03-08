@@ -125,11 +125,19 @@ section {
 
  #links {
 	display:block;
-	width: 450px;
+	width: 540px;
 	height:auto;
 	background-color:#c8c2b5;
-	padding: 10px;
+	padding: 5px;
+	 
 }
+#links p{
+	
+	font-family:"Myriad Pro", Helvetica, Arial, sans-serif;
+	font-size:24px;
+	color:#000;
+	text-decoration:underline;
+	text-align:center;}
 
 /* -------------  Footer ------------ */
 footer {
