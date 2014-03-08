@@ -123,6 +123,14 @@ section {
 	 
 }
 
+ #links {
+	display:block;
+	width: 450px;
+	height:auto;
+	background-color:#c8c2b5;
+	padding: 10px;
+}
+
 /* -------------  Footer ------------ */
 footer {
 	clear:both;
@@ -130,11 +138,7 @@ footer {
 	margin-left: 20px;
 	
 }
-#links {
-	display:block;
-	width: 600px;
-	height:auto;
-}
+
 footer p {
 	text-align:left;
 	font-size:10px;
