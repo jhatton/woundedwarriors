@@ -21,24 +21,7 @@ h1 {
 }
 h2{
 	font-size:24px;
-	color:#000;
-}
-h4 {
 	color:#fff;
-	font-size:14px;
-	font-family: "Myriad Pro",  Helvetica, Arial, sans-serif;
-	position:absolute;
-	top: 515px;
-	left:160px;
-}
-
-h5 {
-	color:#fff;
-	font-size:14px;
-	font-family: "Myriad Pro",  Helvetica, Arial, sans-serif;
-	position:absolute;
-	top: 535px;
-	left:160px;
 }
 
 #statement {
@@ -84,9 +67,12 @@ nav ul li a {
 /* -------------  Slideshow ------------ */
 
 .slideshow {
-	margin-top:30px;
-	margin-bottom: 50px;
-}
+	 
+    position: relative; 
+    width: 900px; 
+    height: 200px;  
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+	 }
  .slideshow p{
 	 height: 20px;
 	 clear:both;
@@ -95,25 +81,26 @@ nav ul li a {
 	 color:#fff;
 	 padding:20px;
 	 position:absolute;
-	 top:175px;
+	 top:80px;
 	 bottom: 50px;
 }
+
+.slideshow>div {
+	position:absolute;
+	
+	}
 /* -------------  Articles ------------ */
 article {
 	display:inline-block;
 	background-color:#bbb6ab;
 	width:260px;
-	height: auto;
+	height: 200px;
 	padding-left: 15px;
 	padding-top:5px;
-	padding-bottom: 5px;
 	float:left;
+	margin-top:30px;
 	margin-right:37px;
-	margin-bottom: 50px;
-	 
-	 
 }
-
 article h2{
 	font-size:24px;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
