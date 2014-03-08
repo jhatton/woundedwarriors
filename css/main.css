@@ -25,6 +25,23 @@ h2{
 	color:#fff;
 }
 
+h4{
+	position: absolute;
+	top: 530px;
+	color: #fff;
+}
+
+h5{
+	position: absolute;
+	top: 545px;
+	color: #fff;
+}
+
+h6 {
+	
+position:absolute;
+top: 800px;
+}
 #statement {
 	display:block;
 	width: 400px;
@@ -177,4 +194,3 @@ ul li a {
 	font-family:"Myriad Pro", Helvetica, Arial, sans-serif;
 	font-size:  .75em;
 }
-
