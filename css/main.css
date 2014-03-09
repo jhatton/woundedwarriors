@@ -13,6 +13,7 @@ body{
 	margin: 30px auto;
 	padding: 0 30px;
 	position: relative;
+	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
 } 
 
 h1 {
@@ -21,8 +22,8 @@ h1 {
 }
 
 h2{
-	font-size:24px;
-	color:#fff;
+	font-size:1.5em;
+	color:#000;
 }
 
 h4{
@@ -73,14 +74,14 @@ nav ul li a {
    	text-decoration: none;
    	color: #4c655d;
 	padding: 5px 10px 5px 10px;
-	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+	
 	font-size: 1.5em;
 	
 }
 
 #small_nav p{
-	font-family:"Myriad Pro",  Helvetica, Arial, sans-serif;
-	font-size:18px;
+	 
+	font-size:1.125em;
 	color: #000;
 	
 }
@@ -101,9 +102,8 @@ article {
 	margin-right:37px;
 }
 article h2{
-	font-size:24px;
-	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
-	color:#000;
+	font-size:1.5em;
+	color:#fff;
 	
 }
 /* -------------  Sections ------------ */
@@ -123,9 +123,7 @@ section {
 	 
 }
 #links p{
-	
-	font-family:"Myriad Pro", Helvetica, Arial, sans-serif;
-	font-size:24px;
+	font-size:1.5em;
 	color:#000;
 	text-decoration:underline;
 	text-align:center;
@@ -134,8 +132,7 @@ section {
 /* -------------  Footer ------------ */
 footer {
 	clear:both;
-	text-align:left;
-	margin-left: 20px;
+	
 	
 }
 
@@ -145,26 +142,23 @@ footer p {
 	
 }
 /* -------------  Footer Nav ------------ */
-ul {
+footer ul {
 	clear:both;
-	margin-top: 10px;
 	float: right;
-	padding: 0;
 	list-style: none;
 }
-ul li {
+footer ul li {
     display: inline;
     position: relative;
     float: left;
-	 
+	 margin: 0 auto;
 }
-li ul {
+footer li ul {
     display: none;
 }
-ul li a {
+footer ul li a {
    	text-decoration: none;
    	color: #4c655d;
 	padding: 5px 15px 5px 15px;
-	font-family:"Myriad Pro", Helvetica, Arial, sans-serif;
 	font-size:  .75em;
 }
