@@ -86,29 +86,7 @@ nav ul li a {
 }
 /* -------------  Slideshow ------------ */
 
-.slideshow {
-	 
-    position: relative; 
-    width: 900px; 
-    height: 200px;  
-    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
-	 }
- .slideshow p{
-	 height: 20px;
-	 clear:both;
-	 font-size:3em;
-	 font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
-	 color:#fff;
-	 padding:20px;
-	 position:absolute;
-	 top:80px;
-	 bottom: 50px;
-}
 
-.slideshow>div {
-	position:absolute;
-	
-	}
 /* -------------  Articles ------------ */
 article {
 	display:inline-block;
