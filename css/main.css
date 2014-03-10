@@ -24,6 +24,15 @@ h2{
 	color:#000;
 }
 
+h2+p {
+	float:left;
+	margin-right: 167px;
+ 	display:block;
+	width: 450px;
+	height:auto;
+	margin-bottom: 20px;
+}
+
 h4 {
 	color:#fff;
 	font-size:14px;
@@ -40,13 +49,6 @@ h5 {
 	position:absolute;
 	top: 535px;
 	left:160px;
-}
-#statement {
-	float:left;
-	margin-right: 167px;
- 	display:block;
-	width: 450px;
-	height:auto;
 }
 aside {
 	margin-top: 20px;
@@ -69,6 +71,7 @@ blockquote {
 	float: right;
 	display:block;
 	width: 350px;
+	line-height: 3px;
 	height:auto;
 	background-color:#BBB6AB;
 	color:#FF0000;
@@ -78,7 +81,6 @@ blockquote {
  
 /* -------------  Main Nav ------------ */
 nav ul {
-	
 	margin-top: 10px;
 	float: right;
 	padding: 0;
@@ -120,6 +122,7 @@ nav ul li a {
 
 /* -------------  Articles ------------ */
 article {
+	 
 	display:inline-block;
 	background-color:#bbb6ab;
 	width:260px;
@@ -138,10 +141,11 @@ article h2{
 	font-size:24px;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	color:#000;
-	
+	 
 }
 /* -------------  Sections ------------ */
 section {
+	
 	float: left;
 	margin-right:37px;
 	 
