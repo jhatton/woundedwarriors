@@ -162,23 +162,25 @@ footer p {
 	 
 }
 /* -------------  Footer Nav ------------ */
-ul {
-	clear:both;
-	margin-top: 10px;
-	text-align:center;
-	padding: 0;
-	list-style: none;
+footer ul {
+	width: 400px;
+	clear: both;        
+	display: block;
+	font-size: 1.0em; /*16px*/
+	text-align: center;
+	margin-bottom: 30px;
+	margin: 0 auto;
 }
-ul li {
+footer ul li {
     display: inline;
     position: relative;
     float: left;
 	 
 }
-li ul {
+footer li ul {
     display: none;
 }
-ul li a {
+footer ul li a {
    	text-decoration: none;
    	color: #4c655d;
 	padding: 5px 15px 5px 15px;
