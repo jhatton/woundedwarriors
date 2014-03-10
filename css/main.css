@@ -13,43 +13,69 @@ body{
 	margin: 30px auto;
 	padding: 0 30px;
 	position: relative;
-	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
 } 
 
 h1 {
 	height: 100px;
 	width: 240px;
 }
-
 h2{
-	font-size:1.5em;
+	font-size:24px;
 	color:#000;
 }
 
-h4{
-	position: absolute;
-	top: 530px;
-	color: #fff;
+h4 {
+	color:#fff;
+	font-size:14px;
+	font-family: "Myriad Pro",  Helvetica, Arial, sans-serif;
+	position:absolute;
+	top: 515px;
+	left:160px;
 }
 
-h5{
-	position: absolute;
-	top: 545px;
-	color: #fff;
+h5 {
+	color:#fff;
+	font-size:14px;
+	font-family: "Myriad Pro",  Helvetica, Arial, sans-serif;
+	position:absolute;
+	top: 535px;
+	left:160px;
 }
-
- 
 #statement {
-	display:block;
-	width: 400px;
+	float:left;
+	margin-right: 167px;
+ 	display:block;
+	width: 450px;
 	height:auto;
-	float: left;
-	left: 300px;
-	padding-bottom: 15px;
+}
+aside {
+	margin-top: 20px;
+	margin-bottom:20px;
+	display:block;
+	width: 350px;
+	height:auto;
+	background-color:#BBB6AB;
+	color:#FF0000;
+	padding: 10px;
+	float:left;
+	margin-right:249px;
+	 
+}
+
+blockquote {
+	position:absolute;
+	top: 320px;
+	left: 510px;
+	float: right;
+	display:block;
+	width: 350px;
+	height:auto;
+	background-color:#BBB6AB;
+	color:#FF0000;
+	padding: 10px;
 	
 }
-
-
+ 
 /* -------------  Main Nav ------------ */
 nav ul {
 	
@@ -74,19 +100,23 @@ nav ul li a {
    	text-decoration: none;
    	color: #4c655d;
 	padding: 5px 10px 5px 10px;
-	
+	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
 	
 }
 
 #small_nav p{
-	 
-	font-size:1.125em;
+	font-family:"Myriad Pro",  Helvetica, Arial, sans-serif;
+	font-size:18px;
 	color: #000;
 	
 }
 /* -------------  Slideshow ------------ */
 
+.slideshow {
+	margin-top:30px;
+	margin-bottom: 50px;
+}
 
 /* -------------  Articles ------------ */
 article {
@@ -96,69 +126,63 @@ article {
 	height: auto;
 	padding-left: 15px;
 	padding-top:5px;
-	padding-bottom: 15px;
+	padding-bottom: 5px;
 	float:left;
-	margin-top:30px;
 	margin-right:37px;
+	margin-bottom: 50px;
+	 
+	 
 }
+
 article h2{
-	font-size:1.5em;
-	color:#fff;
+	font-size:24px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color:#000;
 	
 }
 /* -------------  Sections ------------ */
 section {
-	
 	float: left;
 	margin-right:37px;
 	 
 }
 
- #links {
-	display:block;
-	width: 540px;
-	height:auto;
-	background-color:#c8c2b5;
-	padding: 5px;
-	 
-}
-#links p{
-	font-size:1.5em;
-	color:#000;
-	text-decoration:underline;
-	text-align:center;
-}
-
 /* -------------  Footer ------------ */
 footer {
 	clear:both;
-	
+	 
 	
 }
 
+}
 footer p {
+	clear:both;
 	text-align:left;
 	font-size:10px;
-	
+	 
 }
 /* -------------  Footer Nav ------------ */
-footer ul {
+ul {
 	clear:both;
-	float: right;
+	margin-top: 10px;
+
+	padding: 0;
 	list-style: none;
 }
-footer ul li {
+ul li {
     display: inline;
     position: relative;
     float: left;
-	 margin: 0 auto;
+	 
 }
-footer li ul {
+li ul {
     display: none;
 }
-footer ul li a {
+ul li a {
    	text-decoration: none;
    	color: #4c655d;
 	padding: 5px 15px 5px 15px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-size:  .75em;
 }
+
