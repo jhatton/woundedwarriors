@@ -23,9 +23,7 @@ h2{
 	font-size:24px;
 	color:#000;
 }
-#statement {
-float:left;
-margin-right: 167px;}
+
 h4 {
 	color:#fff;
 	font-size:14px;
@@ -43,12 +41,41 @@ h5 {
 	top: 535px;
 	left:160px;
 }
-
 #statement {
-	display:block;
+	float:left;
+	margin-right: 167px;
+ 	display:block;
 	width: 450px;
 	height:auto;
 }
+aside {
+	margin-top: 20px;
+	margin-bottom:20px;
+	display:block;
+	width: 350px;
+	height:auto;
+	background-color:#BBB6AB;
+	color:#FF0000;
+	padding: 10px;
+	float:left;
+	margin-right:249px;
+	 
+}
+
+blockquote {
+	position:absolute;
+	top: 320px;
+	left: 510px;
+	float: right;
+	display:block;
+	width: 350px;
+	height:auto;
+	background-color:#BBB6AB;
+	color:#FF0000;
+	padding: 10px;
+	
+}
+ 
 /* -------------  Main Nav ------------ */
 nav ul {
 	
@@ -90,17 +117,7 @@ nav ul li a {
 	margin-top:30px;
 	margin-bottom: 50px;
 }
- .slideshow p{
-	 height: 20px;
-	 clear:both;
-	 font-size:3em;
-	 font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
-	 color:#fff;
-	 padding:20px;
-	 position:absolute;
-	 top:175px;
-	 bottom: 50px;
-}
+
 /* -------------  Articles ------------ */
 article {
 	display:inline-block;
@@ -133,24 +150,22 @@ section {
 /* -------------  Footer ------------ */
 footer {
 	clear:both;
-	text-align:left;
-	margin-left: 20px;
+	 
 	
 }
-#links {
-	display:block;
-	width: 600px;
-	height:auto;
+
 }
 footer p {
+	clear:both;
 	text-align:left;
 	font-size:10px;
-	
+	 
 }
 /* -------------  Footer Nav ------------ */
 ul {
+	clear:both;
 	margin-top: 10px;
-	float: right;
+
 	padding: 0;
 	list-style: none;
 }
