@@ -127,16 +127,27 @@ article {
 	background-color:#bbb6ab;
 	width:260px;
 	height: auto;
-	padding-left: 15px;
-	padding-top:5px;
-	padding-bottom: 5px;
+	padding: 15px 5px 15px 15px;
+	 
 	float:left;
 	margin-right:37px;
 	margin-bottom: 50px;
 	 
 	 
 }
-
+.product, .product1, .product2, .product3{
+	display: block;
+	width: 600px;
+	float:left;
+	 
+}
+.productitem {
+	display:inline-block;
+	width:100px;
+	height: auto;
+	margin-right:20px;
+	margin-bottom: 40px;
+}
 article h2{
 	font-size:24px;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
