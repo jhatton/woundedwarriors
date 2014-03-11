@@ -134,7 +134,9 @@ article {
 	 
 }
 
-
+article p{
+	width:260px;
+}
 article h2{
 	font-size:24px;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
@@ -177,7 +179,7 @@ article h2{
 	width:280px;
 	height: 50px;
 	margin: 0 auto;
-	text-align:center;
+	text-align:center
 	background-color:#eee;
 	border-width:2px;
 	border:dashed;
