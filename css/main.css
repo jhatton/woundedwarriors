@@ -144,7 +144,7 @@ article h2{
 /* ---------- Shopping Cart ----------*/
 .product, .product1, .product2, .product3{
 	display: block;
-	width: 600px;
+	width: 495px;
 	float:left;
 	 
 }
@@ -162,13 +162,26 @@ article h2{
 
 #wrap {
 	display:block;
+	float:left;
 	background-color:#beb9ae;
 	border-width:thin;
 	width: 300px;
+	padding: 10px;
 	position: absolute;
-	top: 200px;
-	right: 200px;
+	top: 211px;
+	left: 630px;
 }
+
+#dropbox {
+	display:block;
+	width:280px;
+	height: 50px;
+	margin: 0 auto;
+	background-color:#eee;
+	border-width:2px;
+	border:dashed;
+	}
+
 /* -------------  Sections ------------ */
 section {
 	float: left;
