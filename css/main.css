@@ -122,24 +122,35 @@ nav ul li a {
 
 /* -------------  Articles ------------ */
 article {
-	 
 	display:inline-block;
 	background-color:#bbb6ab;
 	width:260px;
 	height: auto;
 	padding: 15px 5px 15px 15px;
-	 
 	float:left;
 	margin-right:37px;
 	margin-bottom: 50px;
 	 
 	 
 }
+
+
+article h2{
+	font-size:24px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color:#000;
+	 
+}
+/* ---------- Shopping Cart ----------*/
 .product, .product1, .product2, .product3{
 	display: block;
 	width: 600px;
 	float:left;
 	 
+}
+
+.itemname, .price {
+	font-size:14px;
 }
 .productitem {
 	display:inline-block;
@@ -148,11 +159,15 @@ article {
 	margin-right:20px;
 	margin-bottom: 40px;
 }
-article h2{
-	font-size:24px;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	color:#000;
-	 
+
+#wrap {
+	display:block;
+	background-color:#beb9ae;
+	border-width:thin;
+	width: 300px;
+	position: absolute;
+	top: 200px;
+	right: 200px;
 }
 /* -------------  Sections ------------ */
 section {
