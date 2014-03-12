@@ -176,23 +176,28 @@ article h2{
 
 #scart{
 	font-size:0.875em;
-	color:#FFFFFF;
 	text-align:center;
 }
-h3.slidehead{
+.sidehead{
 	color:#000;
 	text-align:center;
-	font-size:1em;
+	font-size:1.25em;
 	padding-top:5px;
 	padding-bottom:5px;
 }
-.cartitems {
+.title{
+	margin-top:5px;
+	font-size:1em;
+	color:#322;
+	}
+.cartitem {
 	display:block;
 	width:280px;
 	height: 50px;
 	margin: 0 auto;
 	text-align:center;
 	background-color:#eee;
+	border-color:#969090;
 	border-width:2px;
 	border:dashed;
 	}
