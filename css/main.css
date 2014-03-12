@@ -179,14 +179,14 @@ article h2{
 	color:#FFFFFF;
 	text-align:center;
 }
-h3 .slidehead{
+h3.slidehead{
 	color:#000;
 	text-align:center;
 	font-size:1em;
 	padding-top:5px;
 	padding-bottom:5px;
 }
-.cartitem {
+.cartitems {
 	display:block;
 	width:280px;
 	height: 50px;
