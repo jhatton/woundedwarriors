@@ -162,7 +162,7 @@ article h2{
 	margin-bottom: 40px;
 }
 
-#wrap {
+#cart-wrap {
 	display:block;
 	float:left;
 	background-color:#beb9ae;
@@ -174,19 +174,19 @@ article h2{
 	left: 630px;
 }
 
-#wrap h3{
-	font-size:1.5em;
+#scart{
+	font-size:0.875em;
 	color:#FFFFFF;
 	text-align:center;
 }
-#title{
-	color:#ffffff;
+h3 .slidehead{
+	color:#000;
 	text-align:center;
 	font-size:1em;
 	padding-top:5px;
 	padding-bottom:5px;
 }
-#dropbox {
+.cartitem {
 	display:block;
 	width:280px;
 	height: 50px;
