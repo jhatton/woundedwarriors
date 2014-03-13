@@ -157,7 +157,6 @@ article h2{
 	display: block;
 	width: 495px;
 	float:left;
-	 
 }
 
 .itemname, .price {
@@ -199,7 +198,7 @@ article h2{
 	font-size:1em;
 	color:#322;
 	}
-.cartitem {
+.cartdropbox {
 	display:block;
 	width:280px;
 	height: 50px;
