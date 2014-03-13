@@ -33,14 +33,14 @@ $(document).ready(function () {
             var price = $(ui.draggable).find(".listprice").text();
 
             // this writes the html to the page for the shopping cart 
-            var html = '<div class="cartitem" data="' + item + '">';
+            var html = '<div class="cartitem" data=item"' + item + '">';
             html = html + '<span class="ui-state-default trashitem"><span class="ui-icon ui-icon-trash"></span></span>';
             html = html + '<span class="name">' + item + '</span>';
             html = html + '<input type="text" class="amount" value="1" />';
             html = html + '<span class="price">' + price + '</span><div class="clear"></div>';
 
             // adds the product and checks to see if the item is already listed and adds to the quantity, is not the adds the product.  
-            var cartitem = $('.cartitem[data=' + item + ']');
+            var cartitem = $('.cartitem[data=item' + item + ']');
             if (cartitem.length > 0) {
                 var int = parseInt(cartitem.find('input').val());
                 int++;
