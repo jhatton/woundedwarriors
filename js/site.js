@@ -1,8 +1,8 @@
-$(document).ready(function(){
-	// this calls the jfollow plugin to follow the cart when it moves down the page
+$(document).ready(function () {
+    // this calls the jfollow plugin to follow the cart when it moves down the page
     $('#scart').jfollow('#cartfollow', 20);
-	
-	 // this hides the cart button, and sets total=0
+
+    // this hides the cart button, and sets total=0
     var emptyCart = $('.emptycart');
     var clrCart = $('#clearcart');
     clrCart.hide();
@@ -19,7 +19,7 @@ $(document).ready(function(){
         helper: function (event, ui) {
             var itemName = $(this).find(".itemname").text();
             var itemPrice = $(this).find(".listprice").text();
-            return $('<div class="phelper">' + itemName + "<br>" + itemPrice + "<br>" + '<div>');
+            return $('<div class="phelper">' + itemName + '<br>' + itemPrice + '<br>' + '<div>');
         }
     });
 
@@ -71,7 +71,7 @@ $(document).ready(function(){
                 Cancel: function () {
                     $(this).dialog('close');
                 },
-                "OK": function () {
+                    "OK": function () {
                     var content = $('.cartitems');
                     content.remove();
                     location.reload();
