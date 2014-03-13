@@ -158,6 +158,12 @@ article h2{
 	width: 495px;
 	float:left;
 }
+.phelper {
+	
+	display:block;
+	width:auto;
+	height:auto;
+	}
 
 .itemname, .price {
 	font-size:14px;
@@ -169,7 +175,14 @@ article h2{
 	margin-right:20px;
 	margin-bottom: 40px;
 }
-
+.cartitem{
+	clear:both; 
+	border:1px solid #ddd; 
+	background:#fafafa; 
+	padding:6px; 
+	margin:6px 0 0; 
+	font-size:11px;
+}
 #cart-wrap {
 	display:block;
 	float:left;
