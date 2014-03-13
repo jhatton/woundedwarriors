@@ -1,12 +1,6 @@
 $(document).ready(function () {
     // this calls the jfollow plugin to follow the cart when it moves down the page
     $('#scart').jfollow('#cartfollow', 20);
-	
-    // this hides the cart button, and sets total=0
-    var emptyCart = $('.emptycart');
-    var clrCart = $('#clearcart');
-    clrCart.hide();
-    var total = 0;
 
     // this functions sets up the drag function and the helper function
     $(".productitem").draggable({
@@ -19,7 +13,7 @@ $(document).ready(function () {
         helper: function (event, ui) {
             var itemName = $(this).find(".itemname").text();
             var itemPrice = $(this).find(".listprice").text();
-            return $('<div class="phelper">' + itemName + '<br>' + itemPrice + '<br>' + '<div>');
+            return $('<div class="phelper"><br>' + itemName + "<br>" + "<br>" + itemPrice + "<br>" + '<div>');
         }
     });
 
@@ -30,18 +24,18 @@ $(document).ready(function () {
         hoverClass: "ui-state-hover",
         accept: ".productitem",
         drop: function (event, ui) {
-            var itemid = $(ui.draggable).find(".itemname").text();
+            var item = $(ui.draggable).find(".itemname").text();
             var price = $(ui.draggable).find(".listprice").text();
 
             // this writes the html to the page for the shopping cart 
-            var html = '<div class="cartitem" data-itemid="' + '">';
+            var html = '<div class="cartitem" data="' + item + '">';
             html = html + '<span class="ui-state-default trashitem"><span class="ui-icon ui-icon-trash"></span></span>';
-            html = html + '<span class="name">' + itemid + '</span>';
+            html = html + '<span class="name">' + item + '</span>';
             html = html + '<input type="text" class="amount" value="1" />';
             html = html + '<span class="price">' + price + '</span><div class="clear"></div>';
 
             // adds the product and checks to see if the item is already listed and adds to the quantity, is not the adds the product.  
-            var cartitem = $('.cartitem[data-itemid=' +  ']');
+            var cartitem = $('.cartitem[data=' + item + ']');
             if (cartitem.length > 0) {
                 var int = parseInt(cartitem.find('input').val());
                 int++;
