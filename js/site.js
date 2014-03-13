@@ -1,7 +1,12 @@
 $(document).ready(function () {
     // this calls the jfollow plugin to follow the cart when it moves down the page
     $('#scart').jfollow('#cartfollow', 20);
-
+	
+	 // this hides the cart button, and sets total=0
+    var emptyCart = $('.emptycart');
+    var clrCart = $('#clearcart');
+    clrCart.hide();
+    var total = 0;
     // this functions sets up the drag function and the helper function
     $(".productitem").draggable({
         revert: true,
@@ -90,3 +95,4 @@ $(document).ready(function () {
 
     });
 });
+
