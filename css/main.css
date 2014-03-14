@@ -289,11 +289,11 @@ footer+p {
 }
 /* -------------  Footer Nav ------------ */
 footer ul {
-	width: 600px;
+	width: 445px;
 	clear: both;        
 	display: block;
 	font-size: 1.0em; /*16px*/
-	margin: 30px 60px 30px auto;
+	margin:0 auto;
  
 }
 footer ul li {
