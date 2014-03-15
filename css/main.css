@@ -109,15 +109,19 @@ h5 {
 }
 aside {
 	display:block;
-	width: 350px;
+	width: 370px;
 	height:auto;
 	background-color:#BBB6AB;
 	color:#FF0000;
-	padding: 10px;
-	margin: 20px 280px 20px 30px;
+	padding: 20px 20px;
+	margin: 20px 240px 20px 30px;
 	float:left;
 }
 
+aside > p {
+	font-size:18px;
+	color:#000000;
+	}
 blockquote {
 	position: absolute;
 	top: 390px;
@@ -189,7 +193,7 @@ article p{
 	 
 }
 article h2{
-	font-size:1.5;
+	font-size:1.25em ;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	color:#000;
 }
@@ -272,6 +276,68 @@ section {
 	float: left;
 	margin:0 22px 10px 22px;
 }
+
+/* ------------- Forms -------------*/
+#form1, #form2 label{
+	font-size:1.25em;
+}
+#form1 input#name {
+	border-bottom-style:solid;
+	margin: 2px 0 0 150px;
+} 
+#form1 input#address {
+	border-bottom-style:solid;
+	margin: 2px 0 0 132px;
+} 
+#form1 input#address1 {
+	border-bottom-style:solid;
+	margin: 2px 0 0 132px;
+} 
+#form1 input#city {
+	border-bottom-style:solid;
+	margin: 2px 0 0 161px;
+} 
+#form1 input#state {
+	border-bottom-style:solid;
+	margin: 2px 0 0 157px;
+} 
+
+#form1 input#zip {
+	border-bottom-style:solid;
+	margin: 2px 0 0 120px;
+} 
+#form1 input#home {
+	border-bottom-style:solid;
+	margin: 2px 0 0 90px;
+} 
+
+#form1 input#cell {
+	border-bottom-style:solid;
+	margin: 2px 0 0 105px;
+} 
+
+#form2 input#gift {
+	border-bottom-style:solid;
+	margin: 2px 0 0 50px;
+} 
+
+#form2 select#select {
+	border-bottom-style:solid;
+	margin: 2px 0 0 104px;
+} 
+#form2 input#card {
+	border-bottom-style:solid;
+	margin: 2px 0 0 60px;
+} 
+#form2 input#date {
+	border-bottom-style:solid;
+	margin: 2px 0 0 41px;
+} 
+
+#form2 input#code {
+	border-bottom-style:solid;
+	margin: 2px 0 0 55px;
+} 
 
 
 /* -------------  Footer ------------ */
