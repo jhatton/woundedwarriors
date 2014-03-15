@@ -118,10 +118,8 @@ aside {
 	float:left;
 }
 
-aside > p {
-	font-size:18px;
-	color:#000000;
-	}
+aside > p {font-size:18px;color:#000000;}
+blockquote p{font-size:1.125em;color#000000;}
 blockquote {
 	position: absolute;
 	top: 390px;
@@ -132,7 +130,7 @@ blockquote {
 	height: auto;
 	background-color: #BBB6AB;
 	color: #FF0000;
-	padding: 5px;
+	padding: 15px;
 }
  
 /* -------------  Main Nav ------------ */
@@ -278,66 +276,25 @@ section {
 }
 
 /* ------------- Forms -------------*/
-#form1, #form2 label{
-	font-size:1.25em;
-}
-#form1 input#name {
-	border-bottom-style:solid;
-	margin: 2px 0 0 150px;
-} 
-#form1 input#address {
-	border-bottom-style:solid;
-	margin: 2px 0 0 132px;
-} 
-#form1 input#address1 {
-	border-bottom-style:solid;
-	margin: 2px 0 0 132px;
-} 
-#form1 input#city {
-	border-bottom-style:solid;
-	margin: 2px 0 0 161px;
-} 
-#form1 input#state {
-	border-bottom-style:solid;
-	margin: 2px 0 0 157px;
-} 
-
-#form1 input#zip {
-	border-bottom-style:solid;
-	margin: 2px 0 0 120px;
-} 
-#form1 input#home {
-	border-bottom-style:solid;
-	margin: 2px 0 0 90px;
-} 
-
-#form1 input#cell {
-	border-bottom-style:solid;
-	margin: 2px 0 0 105px;
-} 
-
-#form2 input#gift {
-	border-bottom-style:solid;
-	margin: 2px 0 0 50px;
-} 
-
-#form2 select#select {
-	border-bottom-style:solid;
-	margin: 2px 0 0 104px;
-} 
-#form2 input#card {
-	border-bottom-style:solid;
-	margin: 2px 0 0 60px;
-} 
-#form2 input#date {
-	border-bottom-style:solid;
-	margin: 2px 0 0 41px;
-} 
-
-#form2 input#code {
-	border-bottom-style:solid;
-	margin: 2px 0 0 55px;
-} 
+#form1, #form2 label{font-size:1.125em;}
+#form1, #form2 input {border-color:#850D0F;}
+#form1 input#name {margin: 2px 0 0 150px;} 
+#form1 input#address {margin: 2px 0 0 133px;} 
+#form1 input#address1 {margin: 2px 0 0 133px;} 
+#form1 input#city {margin: 2px 0 0 161px;} 
+#form1 input#state {margin: 2px 0 0 157px;} 
+#form1 input#zip {margin: 2px 0 0 126px;} 
+#form1 input#home {margin: 2px 0 0 100px;} 
+#form1 input#cell {margin: 2px 0 0 114px;}
+#form1 input#firstname{margin: 2px 0 0 115px;}
+#form1 input#lastname{margin: 2px 0 0 116px;}
+#form1 input#email{margin: 2px 0 0 153px;}
+#form1 input#email2{margin: 2px 0 0 87px;}
+#form2 input#gift {margin: 2px 0 0 50px;}
+#form2 select#select {margin: 2px 0 0 70px;} 
+#form2 input#card {margin: 2px 0 0 59px;} 
+#form2 input#date {margin: 2px 0 0 41px;} 
+#form2 input#code {margin: 2px 0 0 55px;} 
 
 
 /* -------------  Footer ------------ */
