@@ -35,7 +35,7 @@ $(function () {
             var item = $(ui.draggable).find(".itemname").text();
             var itemid = $(ui.draggable).find("h6").text();
             var price = $(ui.draggable).find(".listprice").text();
-
+				console.log(item, itemid, price);
             // this writes the html to the page for the shopping cart 
             var html = '<div class="cartitem" data-productid="' + itemid + '">';
             html = html + '<span class="ui-state-default trashitem"><span class="ui-icon ui-icon-trash"></span></span>';
