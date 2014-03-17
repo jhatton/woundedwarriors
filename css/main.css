@@ -119,7 +119,7 @@ aside {
 }
 
 aside > p {font-size:18px;color:#000000;}
-blockquote p{font-size:1.125em;color:#000000;}
+blockquote >p{font-size:1.125em;color:#000000;}
 blockquote {
 	position: absolute;
 	top: 390px;
@@ -283,8 +283,8 @@ section {
 }
 
 /* ------------- Forms -------------*/
-#form1, #form2 label{font-size:1.125em;}
-#form1, #form2 input {border-color:#850D0F;}
+#form1 label{font-size:1.125em;}
+#form1 input {border-color:#850D0F;}
 #form1 input#name {margin: 2px 0 0 150px;} 
 #form1 input#address {margin: 2px 0 0 133px;} 
 #form1 input#address1 {margin: 2px 0 0 133px;} 
@@ -297,6 +297,8 @@ section {
 #form1 input#lastname{margin: 2px 0 0 116px;}
 #form1 input#email{margin: 2px 0 0 153px;}
 #form1 input#email2{margin: 2px 0 0 87px;}
+#form2 label{font-size:1.125em;}
+#form2 input {border-color:#850D0F;}
 #form2 input#gift {margin: 2px 0 0 50px;}
 #form2 select#select {margin: 2px 0 0 70px;} 
 #form2 input#card {margin: 2px 0 0 59px;} 
