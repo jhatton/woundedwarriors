@@ -24,7 +24,7 @@ $(function () {
             return $('<div class="phelper"><br>' + itemName + "<br>" + itemNumber + "<br>" + itemPrice + "<br>" + '<div>');
         }
     });
-
+debugger;
     // this drops the products to be dropped to the cart 
     $(".cartdropbox").droppable({
         tolerance: "touch",
@@ -37,8 +37,9 @@ $(function () {
             var price = $(ui.draggable).find(".listprice").text();
 
             // this writes the html to the page for the shopping cart 
-            var html = '<div class="cartitem" data-productid="' + itemid + '">';
-			console.log(itemid, item, price);
+		 
+            var html = '<div class="cartitem" data-productid=' + itemid + '>';
+			  
             html = html + '<span class="ui-state-default trashitem"><span class="ui-icon ui-icon-trash"></span></span>';
             html = html + '<span class="title">' + itemid + '</span>';
             html = html + '<span class="name">' + item + '</span>';
@@ -46,7 +47,7 @@ $(function () {
             html = html + '<span class="price">' + price + '</span><div class="clear"></div>';
 
             // adds the product and checks to see if the item is already listed and adds to the quantity, is not the adds the product.  
-            var cartitem = $('".cartitem[data-productid="' + itemid + '"]"');
+            var cartitem = $('.cartitem[data-productid=' + itemid + ']');
 			
             if (cartitem.length > 0) {
                 var int = parseInt(cartitem.find('input').val());
@@ -54,7 +55,7 @@ $(function () {
                 cartitem.find('input').val(int);
 				
             } else {
-                var content = $('.cartitem');
+                var content = $('.cartitems');
                 content.append(html);
                 emptyCart.fadeOut();
             }
