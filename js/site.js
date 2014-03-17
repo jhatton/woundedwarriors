@@ -24,7 +24,6 @@ $(function () {
             return $('<div class="phelper"><br>' + itemName + "<br>" + itemNumber + "<br>" + itemPrice + "<br>" + '<div>');
         }
     });
-debugger;
     // this drops the products to be dropped to the cart 
     $(".cartdropbox").droppable({
         tolerance: "touch",
@@ -37,7 +36,7 @@ debugger;
             var price = $(ui.draggable).find(".listprice").text();
 
             // this writes the html to the page for the shopping cart 
-		 
+	
             var html = '<div class="cartitem" data-productid=' + itemid + '>';
 			  
             html = html + '<span class="ui-state-default trashitem"><span class="ui-icon ui-icon-trash"></span></span>';
