@@ -54,7 +54,7 @@ $(function () {
                 cartitem.find('input').val(int);
 				
             } else {
-                var content = $('.cartitem');
+                var content = $('.cartitems');
                 content.append(html);
                 emptyCart.fadeOut();
             }

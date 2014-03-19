@@ -186,9 +186,9 @@ article {
 	margin:0 22px 50px 22px;
 }
 
-article p{
+article h5 p{
 	clear:both;
-	width: 210px; 
+	width: auto; 
 	 
 }
 article h2{
