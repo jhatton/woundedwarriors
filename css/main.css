@@ -82,8 +82,8 @@ h3 {
 h2+p {
 	float:left;
 	display:block;
-	width: 450px;
-	margin: 0 197px 20px 30px;
+	width: 225px;
+	margin: 0 197px 0 0;
 	 
 	 
 }
@@ -92,10 +92,11 @@ h4 {
 	color: #fff;
 	font-size: 16px;
 	font-family: "Myriad Pro",  Helvetica, Arial, sans-serif;
-	width: 150px;
+	width: 120px;
 	float:right;
 	position:relative;
-	top:  -100px;
+	top:  -120px;
+	right:21px;
 	 
 }
 
@@ -105,8 +106,9 @@ h5 {
 	font-family: "Myriad Pro",  Helvetica, Arial, sans-serif;
 	float:right;
 	position:relative;
-	top:-75px;
-	right:-75px;
+	top:-95px;
+	right:-70px;
+	width:25%;
 }
 aside {
 	display:block;
@@ -133,6 +135,10 @@ blockquote {
 	color: #FF0000;
 	padding: 15px;
 }
+
+.statement {
+	font-size:14px;
+	}
  
 /* -------------  Main Nav ------------ */
 nav ul {
@@ -180,13 +186,13 @@ article {
 	display:block;
 	background-color:#bbb6ab;
 	width:255px;
-	height: 240px;
+	height: auto;
 	padding: 15px 5px 15px 15px;
 	float:left;
-	margin:0 22px 50px 22px;
+	margin:0 0px 50px 22px;
 }
 
-article h5 p{
+article h5 >p{
 	clear:both;
 	width: auto; 
 	 
@@ -345,3 +351,5 @@ footer ul li a {
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-size: 1em;
 }
+
+ 
