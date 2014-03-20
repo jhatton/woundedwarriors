@@ -1,0 +1,12 @@
+# robots.txt file created at http://www.searchenginepromotionhelp.com/
+# Wed, 19 Mar 2014 23:42:19 +0000
+
+# Exclude Files From All Robots:
+
+User-agent: *
+Disallow: /www.woundedwarriors.co/site.html
+
+
+
+
+# End robots.txt file
