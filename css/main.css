@@ -82,11 +82,9 @@ h3 {
 h2+p {
 	float:left;
 	display:block;
-	width: 450px;
-	margin: 0 197px 20px 30px;
-	 
-	 
-}
+	width: 225px;
+	margin: 5px 425px 20px 30px;
+	}
 
 h4 {
 	color: #fff;
@@ -183,7 +181,7 @@ article {
 	height: auto;
 	padding: 15px 5px 15px 15px;
 	float:left;
-	margin:0 22px 50px 22px;
+	margin:5px 22px 50px 22px;
 }
 
 article h5 p{
@@ -192,9 +190,9 @@ article h5 p{
 	 
 }
 article h2{
-	font-size:1.25em ;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:1.25em;
 	color:#000;
+	text-align:center;
 }
 
  
