@@ -109,6 +109,7 @@ h5 {
 	top:-95px;
 	right:-70px;
 	width:25%;
+	
 }
 aside {
 	display:block;
@@ -137,7 +138,10 @@ blockquote {
 }
 
 .statement {
-	font-size:14px;
+	clear:both;
+	font-size:1em;
+	width:225px;
+	
 	}
  
 /* -------------  Main Nav ------------ */
@@ -192,7 +196,7 @@ article {
 	margin:0 0px 50px 22px;
 }
 
-article h5 >p{
+article h5 p{
 	clear:both;
 	width: auto; 
 	 
