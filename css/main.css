@@ -63,28 +63,26 @@ body{
 } 
 
 h1 {
-	margin:30px;
 	height: 100px;
 	width: 240px;
 }
 h2{
-	margin: 0 30px;
 	font-size:24px;
 	color:#000;
 }
 
-
 h3 {
-	padding: 30px;
-	margin-bottom: 5px;
+	margin-bottom:5px;
 	font-size:1.5em;}
 
 h2+p {
 	float:left;
-	display:block;
-	width: 225px;
-	margin: 5px 425px 20px 30px;
-	}
+	margin-right: 205px;
+ 	display:block;
+	width: 450px;
+	height:auto;
+	margin-bottom: 20px;
+}
 
 h4 {
 	color: #fff;
@@ -107,31 +105,55 @@ h5 {
 	right:-75px;
 }
 aside {
+	margin-top: 20px;
+	margin-bottom:20px;
+	margin-right: 283px;
 	display:block;
-	width: 370px;
+	width: 350px;
 	height:auto;
 	background-color:#BBB6AB;
-	color:#FF0000;
-	padding: 20px 20px;
-	margin: 20px 240px 20px 30px;
+	color:#000000;
+	padding: 10px;
 	float:left;
+	 
+	 
 }
 
-aside > p {font-size:18px;color:#000000;}
-blockquote >p{font-size:1.125em;color:#000000;}
 blockquote {
 	position: absolute;
-	top: 390px;
-	left: 602px;
+	top: 405px;
+	left: 575px;
 	float: right;
 	display: block;
 	width: 350px;
 	height: auto;
 	background-color: #BBB6AB;
-	color: #FF0000;
-	padding: 15px;
+	color: #000000;
+	padding: 5px;
 }
- 
+
+/* ------------- Forms -------------*/
+#form1 label{font-size:1.125em;}
+#form1 input {border-color:#818181;}
+#form1 input#name {margin: 2px 0 0 120px;} 
+#form1 input#address {margin: 2px 0 0 104px;} 
+#form1 input#address1 {margin: 2px 0 0 104px;} 
+#form1 input#city {margin: 2px 0 0 131px;} 
+#form1 input#state {margin: 2px 0 0 127px;} 
+#form1 input#zip {margin: 2px 0 0 96px;} 
+#form1 input#home {margin: 2px 0 0 70px;} 
+#form1 input#cell {margin: 2px 0 0 84px;}
+#form1 input#firstname{margin: 2px 0 0 85px;}
+#form1 input#lastname{margin: 2px 0 0 86px;}
+#form1 input#email{margin: 2px 0 0 123px;}
+#form1 input#email2{margin: 2px 0 0 57px;}
+#form2 label{font-size:1.125em;}
+#form2 input {border-color:#818181;}
+#form2 input#gift {margin: 2px 0 0 70px;}
+#form2 select#select {margin: 2px 0 0 90px;} 
+#form2 input#card {margin: 2px 0 0 78px;} 
+#form2 input#date {margin: 2px 0 0 61px;} 
+#form2 input#code {margin: 2px 0 0 74px;}  
 /* -------------  Main Nav ------------ */
 nav ul {
 	margin-top: 10px;
@@ -140,7 +162,7 @@ nav ul {
 	list-style: none;
 	position:absolute;
 	top:50px;
-	right: 50px;
+	right: 80px;
 }
 nav ul li {
     display: inline;
@@ -164,35 +186,38 @@ nav ul li a {
 	font-family:"Myriad Pro",  Helvetica, Arial, sans-serif;
 	font-size:18px;
 	color: #000;
-	padding: 0 30px 0 30px;
+	
 }
 /* -------------  Slideshow ------------ */
 
 .slideshow {
-	margin:30px 30px 50px 30px;
-	
+	margin-top:30px;
+	margin-bottom: 50px;
 }
 
 /* -------------  Articles ------------ */
 article {
-	display:block;
+	display:inline-block;
 	background-color:#bbb6ab;
-	width:255px;
+	width:260px;
 	height: auto;
 	padding: 15px 5px 15px 15px;
 	float:left;
-	margin:5px 22px 50px 22px;
+	margin-right:37px;
+	margin-bottom: 50px;
+	 
+	 
 }
 
-article h5 p{
+article p{
 	clear:both;
-	width: auto; 
+	width: 260px; 
 	 
 }
 article h2{
-	font-size:1.25em;
+	font-size:1.5;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	color:#000;
-	text-align:center;
 }
 
  
@@ -201,26 +226,18 @@ article h2{
 	display: block;
 	width: 495px;
 	float:left;
-	padding:0 30px 0 30px;
 }
 .phelper {
-	padding:10px; 
-	width:170px;
-	background: #e80 url(images/ui-bg_gloss-wave_35_f6a828_500x100.png) 50% 50% repeat-x; 
-	font-size:12px; color:#fff; border:2px solid #fff; z-index:50;
-	-moz-box-shadow:0 0 10px #777;
-
+	
+	display:block;
+	width:auto;
+	height:auto;
 	}
 
-.itemname, .listprice {
+.itemname, .price {
 	font-size:14px;
 }
-
-h6 {
-	font-size: 14px;
-	margin-top: 2px;
-}
-.productitem {
+.product {
 	display:inline-block;
 	width:100px;
 	height: auto;
@@ -244,7 +261,7 @@ h6 {
 	padding: 10px;
 	position: absolute;
 	top: 211px;
-	left: 640px;
+	left: 610px;
 }
 
 #scart{
@@ -278,34 +295,24 @@ h6 {
 /* -------------  Sections ------------ */
 section {
 	float: left;
-	margin:0 22px 10px 22px;
+	margin-right:37px;
 }
-
-/* ------------- Forms -------------*/
-#form1 label{font-size:1.125em;}
-#form1 input {border-color:#850D0F;}
-#form1 input#name {margin: 2px 0 0 150px;} 
-#form1 input#address {margin: 2px 0 0 133px;} 
-#form1 input#address1 {margin: 2px 0 0 133px;} 
-#form1 input#city {margin: 2px 0 0 161px;} 
-#form1 input#state {margin: 2px 0 0 157px;} 
-#form1 input#zip {margin: 2px 0 0 126px;} 
-#form1 input#home {margin: 2px 0 0 100px;} 
-#form1 input#cell {margin: 2px 0 0 114px;}
-#form1 input#firstname{margin: 2px 0 0 115px;}
-#form1 input#lastname{margin: 2px 0 0 116px;}
-#form1 input#email{margin: 2px 0 0 153px;}
-#form1 input#email2{margin: 2px 0 0 87px;}
-#form2 label{font-size:1.125em;}
-#form2 input {border-color:#850D0F;}
-#form2 input#gift {margin: 2px 0 0 50px;}
-#form2 select#select {margin: 2px 0 0 70px;} 
-#form2 input#card {margin: 2px 0 0 59px;} 
-#form2 input#date {margin: 2px 0 0 41px;} 
-#form2 input#code {margin: 2px 0 0 55px;} 
 
 
 /* -------------  Footer ------------ */
+footer {
+	clear:both;
+	margin:0 auto;
+}
+
+}
+footer p {
+	clear:both;
+	text-align:left;
+	font-size:.75em; 
+	 
+}
+/* -------------  Footer Nav ------------ */
 footer {
 	width: 100%;
 	clear:both;
