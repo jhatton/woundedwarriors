@@ -222,76 +222,52 @@ article h2{
 
  
 /* ---------- Shopping Cart ----------*/
-.product, .product1, .product2, .product3{
-	display: block;
-	width: 495px;
-	float:left;
-}
-.phelper {
-	
+.product{
 	display:block;
-	width:auto;
+	width: 130px;
 	height:auto;
-	}
-
-.itemname, .price {
-	font-size:14px;
-}
-.product {
-	display:inline-block;
-	width:100px;
-	height: auto;
-	margin-right:20px;
-	margin-bottom: 40px;
-}
-.cartitem{
-	clear:both; 
-	border:1px solid #ddd; 
-	background:#fafafa; 
-	padding:6px; 
-	margin:6px 0 0; 
-	font-size:12px;
-}
-#cart-wrap {
-	display:block;
 	float:left;
-	background-color:#beb9ae;
-	border-width:thin;
-	width: 300px;
-	padding: 10px;
-	position: absolute;
-	top: 211px;
-	left: 610px;
 }
-
-#scart{
-	font-size:0.875em;
-	text-align:center;
-}
-.sidehead{
-	color:#000;
-	text-align:center;
-	font-size:1.25em;
-	padding-top:5px;
-	padding-bottom:5px;
-}
-.title{
-	margin-top:5px;
-	font-size:1em;
-	color:#322;
-	}
-.cartdropbox {
+.product1{
+	 
 	display:block;
-	width:280px;
-	height: 50px;
-	margin: 0 auto;
-	text-align:center;
-	background-color:#eee;
-	border-color:#969090;
-	border-width:2px;
-	border:dashed;
+	width: 130px;
+	height:auto;
+	float:left;
+	}
+.product2{
+	 
+	display:block;
+	width: 130px;
+	height:auto;
+	float:left;
+	}
+.product3{
+	 
+	display:block;
+	width: 130px;
+	height:auto;
+	float:left;
 	}
 
+.product p, span {
+	font-size:14px;
+	margin: 0 4px 0 4px;
+}
+.product1 p, span {
+	font-size:14px;
+	margin: 0 4px 0 4px;
+}
+
+.product2 p, span {
+	font-size:14px;
+	margin: 0 4px 0 4px;
+}
+
+.product3 p, span {
+	font-size:14px;
+	margin: 0 4px 0 4px;
+}
 /* -------------  Sections ------------ */
 section {
 	float: left;
