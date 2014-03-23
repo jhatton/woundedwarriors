@@ -252,21 +252,34 @@ article h2{
 
 .product p, span {
 	font-size:14px;
-	margin: 0 4px 0 4px;
+	margin: 4px 0 4px 0;
 }
 .product1 p, span {
 	font-size:14px;
-	margin: 0 4px 0 4px;
+	margin: 4px 0 4px 0;
 }
 
 .product2 p, span {
 	font-size:14px;
-	margin: 0 4px 0 4px;
+	margin: 4px 0 4px 0;
 }
 
 .product3 p, span {
 	font-size:14px;
-	margin: 0 4px 0 4px;
+	margin: 4px 0 4px 0;
+}
+
+.product form input {
+	margin-bottom: 10px;
+}
+.product1 form input {
+	margin-bottom: 10px;
+}
+.product2 form input {
+	margin-bottom: 10px;
+}
+.product3 form input {
+	margin-bottom: 10px;
 }
 /* -------------  Sections ------------ */
 section {
