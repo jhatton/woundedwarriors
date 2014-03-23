@@ -222,30 +222,56 @@ article h2{
 
  
 /* ---------- Shopping Cart ----------*/
+
+.wrapper{
+	display: block;
+	width: 90%;
+	height: 850px;
+	background-color: #ECECEC;
+	border-style: solid;
+	border-color: black;
+	border-width: medium;
+	padding: 30px;
+	min-height: 0px;
+}
 .product{
 	display:block;
-	width: 130px;
+	width: 140px;
 	height:auto;
 	float:left;
 }
 .product1{
 	 
 	display:block;
-	width: 130px;
+	width: 140px;
 	height:auto;
 	float:left;
 	}
 .product2{
 	 
 	display:block;
-	width: 130px;
+	width: 140px;
 	height:auto;
 	float:left;
 	}
 .product3{
 	 
 	display:block;
-	width: 130px;
+	width: 140px;
+	height:auto;
+	float:left;
+	}
+.product4{
+	 
+	display:block;
+	width: 140px;
+	height:auto;
+	float:left;
+	}
+.product5{
+	 
+	display:block;
+	width: 100px;
 	height:auto;
 	float:left;
 	}
@@ -268,19 +294,17 @@ article h2{
 	font-size:14px;
 	margin: 4px 0 4px 0;
 }
+.product4 p, span {
+	font-size:14px;
+	margin: 4px 0 4px 0;
+}
+.product5 p, span {
+	font-size:14px;
+	margin: 4px 0 4px 0;
+}
 
-.product form input {
-	margin-bottom: 10px;
-}
-.product1 form input {
-	margin-bottom: 10px;
-}
-.product2 form input {
-	margin-bottom: 10px;
-}
-.product3 form input {
-	margin-bottom: 10px;
-}
+
+
 /* -------------  Sections ------------ */
 section {
 	float: left;
