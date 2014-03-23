@@ -63,42 +63,10 @@ h2+p {float:left;margin-right: 205px;display:block;width: 450px;height:auto;marg
 
 h4 {color: #fff;font-size: 16px;font-family: "Myriad Pro",  Helvetica, Arial, sans-serif;width: 150px;float:right;position:relative;top:  -100px}
 
-h5 {
-	color: #fff;
-	font-size: 14px;
-	font-family: "Myriad Pro",  Helvetica, Arial, sans-serif;
-	float:right;
-	position:relative;
-	top:-75px;
-	right:-75px;
-}
-aside {
-	margin-top: 20px;
-	margin-bottom:20px;
-	margin-right: 283px;
-	display:block;
-	width: 350px;
-	height:auto;
-	background-color:#BBB6AB;
-	color:#000000;
-	padding: 10px;
-	float:left;
-	 
-	 
-}
+h5 {color: #fff;font-size: 14px;font-family: "Myriad Pro",  Helvetica, Arial, sans-serif;float:right;position:relative;top:-75px;right:-75px;}
+aside {margin-top: 20px;margin-bottom:20px;margin-right: 283px;display:block;width: 350px;height:auto;background-color:#BBB6AB;color:#000000;padding: 10px;float:left;}
 
-blockquote {
-	position: absolute;
-	top: 405px;
-	left: 575px;
-	float: right;
-	display: block;
-	width: 350px;
-	height: auto;
-	background-color: #BBB6AB;
-	color: #000000;
-	padding: 5px;
-}
+blockquote {position: absolute;top: 405px;left: 575px;float: right;display: block;width: 350px;height: auto;background-color: #BBB6AB;color: #000000;padding: 5px;}
 
 /* ------------- Forms -------------*/
 #form1 label{font-size:1.125em;}
@@ -124,38 +92,12 @@ blockquote {
 #form2 input#code {margin: 2px 0 0 74px;}  
 /* -------------  Main Nav ------------ */
 nav ul {
-	margin-top: 10px;
-	float: right;
-	padding: 0;
-	list-style: none;
-	position:absolute;
-	top:50px;
-	right: 80px;
-}
-nav ul li {
-    display: inline;
-    position: relative;
-    float: left;
-	 
-}
-nav li ul {
-    display: none;
-}
-nav ul li a {
-   	text-decoration: none;
-   	color: #4c655d;
-	padding: 5px 10px 5px 10px;
-	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
-	font-size: 1.5em;
-	
-}
+	margin-top: 10px;float: right;padding: 0;list-style: none;position:absolute;top:50px;right: 80px;}
+nav ul li {display: inline;position: relative;float: left;}
+nav li ul {display: none;}
+nav ul li a {text-decoration: none;color: #4c655d;padding: 5px 10px 5px 10px;font-size: 1.5em;}
 
-#small_nav p{
-	font-family:"Myriad Pro",  Helvetica, Arial, sans-serif;
-	font-size:18px;
-	color: #000;
-	
-}
+#small_nav p{font-size:18px;color: #000;}
 /* -------------  Slideshow ------------ */
 
 .slideshow {margin-top:30px;margin-bottom: 50px;}
