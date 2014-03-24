@@ -111,13 +111,13 @@ article h2{font-size:1.5;color:#000;}
  
 /* ---------- Store----------*/
 
-.wrapper{display: block;width: 87.5%;height: 850px;background-color: #ECECEC;border-style: solid;border-color: black;border-width: medium;padding: 30px;}
-.product{display:block;width: 140px;float:left;}
-.product1{display:block;width: 140px;float:left;}
-.product2{display:block;width: 140px;float:left;}
-.product3{display:block;width: 140px;float:left;}
-.product4{display:block;width: 140px;float:left;}
-.product5{display:block;width: 140px;float:left;}
+.wrapper{display: block;width: 87.5%;height: 800px;background-color: #ECECEC;border-style: solid;border-color: black;border-width: medium;margin-bottom: 20px;padding:30px;}
+.product{display:block;width: 100px;float:left;margin-right:40px;margin-left:20px;}
+.product1{display:block;width: 100px;float:left;margin-right:40px;}
+.product2{display:block;width: 100px;float:left;margin-right:40px;}
+.product3{display:block;width: 100px;float:left;margin-right:40px;}
+.product4{display:block;width: 100px;float:left;margin-right:40px;}
+.product5{display:block;width: 100px;float:left;}
 
 .product p, span {font-size:14px;margin:4px 0;}
 .product1 p, span {font-size:14px;margin:4px 0;}
