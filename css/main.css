@@ -51,7 +51,7 @@ blockquote, q { quotes: "" ""; }
 a img { border: none; }
 /* -------------   Normal CSS  ----------------*/
 
-html {background-image:url(../images/bg1.jpg);background-repeat:repeat;}	
+html {background-image:url(../images/bg.jpg);background-repeat:repeat;}	
 body{width: 960px;margin: 30px auto;padding: 0 30px;position: relative;} 
 
 h1 {height: 100px;width: 240px}
