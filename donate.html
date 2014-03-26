@@ -12,7 +12,7 @@
 <nav>
 	<ul>
     	<li><a href="index.html">Home</a></li>
-       <li><a href="about.html">About</a></li>
+       	<li><a href="about.html">About</a></li>
     	<li><a href="store.html">Store</a></li>
     	<li><a href="donate.html">Donate</a></li>
     	<li><a href="subscribe.html">Subscribe</a></li>
@@ -25,7 +25,7 @@
 </nav>
 <!--- Statement --->
 <h2>Donate</h2>
-<p>Please make a donations to our wounded warriors who have served you and our country to keeps us free and safe from the terrors of the world. The money goes to a fund where it is distrubted through varies origanizations to help soldiers with medical bills, living expenses, rides to and from the <a href="http://www.va.org">Veteran's Adminstration</a>, food and anything else the heros may need. So please <strong>Donate</strong> below and know that our fallen heros are taken care of.</p>
+<p>Please make a donations to our wounded warriors who have served you and our country to keeps us free and safe from the terrors of the world. The money goes to a fund where it is distributed through varies organizations to help soldiers with medical bills, living expenses, rides to and from the <a href="http://www.va.org">Veteran's Administration</a>, food and anything else the heroes may need. So please Donate below and know that our fallen heros are taken care of..</p>
 <img src="images/us-military-seals.png" alt="military seals" width="255" height="150" /> 
 <aside>
 <!--- Donation form --->
@@ -73,7 +73,7 @@
   <form id="form2" name="form2" method="post">
     <p>
       <label for="gift">Gift Amount $:</label>
-      <input type="text" name="gift" id="gift">
+      <input type="text" name="textfield" id="gift">
     </p>
     <p>
       <label for="select">Credit Card:</label>
@@ -103,11 +103,13 @@
     YES			    
     <input type="submit" name="submit2" id="submit2" value="Submit">
     </p>
-    <p>You can also donate through PayPal.</p>
-    <p>
-      <input type="submit" name="submit" id="submit" value="Submit">
-    </p>
-  </form>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+	<input type="hidden" name="cmd" value="_s-xclick">
+	<input type="hidden" name="hosted_button_id" value="57T9DBVERR3VN">
+	<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+	<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+</form>
 </blockquote>
 <!--- Footer --->
 <footer>
