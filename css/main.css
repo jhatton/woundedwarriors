@@ -106,7 +106,7 @@ nav ul li a {text-decoration: none;color: #4c655d;padding: 5px 10px 5px 10px;fon
 article {display:inline-block;background-color:#bbb6ab;width:260px;height: auto;padding: 15px 5px 15px 15px;float:left;margin-right:37px;margin-bottom: 50px;}
 
 article p{clear:both;width: 260px;}
-article h2{font-size:1.5;color:#000;}
+article h2{font-size:18px;color:#000;}
 
  
 /* ---------- Store----------*/
@@ -128,7 +128,7 @@ article h2{font-size:1.5;color:#000;}
 
 form input {margin-bottom:10px;}
 /* -------------  Sections ------------ */
-section {float: left;margin-right:37px;}
+section {float: left;margin-right:45px;}
 
 /* -------------  Footer ------------ */
 footer {clear:both;margin:0 auto;}
