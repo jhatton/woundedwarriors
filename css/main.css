@@ -51,267 +51,93 @@ blockquote, q { quotes: "" ""; }
 a img { border: none; }
 /* -------------   Normal CSS  ----------------*/
 
-html {
-	background-image:url(../images/bg.jpg);
-	background-repeat:repeat;
-}	
-body{
-	width: 960px;
-	margin: 30px auto;
-	padding: 0 30px;
-	position: relative;
-} 
+html {background-image:url(../images/bg.jpg);background-repeat:repeat;}	
+body{width: 960px;margin: 30px auto;padding: 0 30px;position: relative;} 
 
-h1 {
-	height: 100px;
-	width: 240px;
-}
-h2{
-	font-size:24px;
-	color:#000;
-}
+h1 {height: 100px;width: 240px}
+h2{font-size:24px;color:#000;}
 
-h3 {
-	margin-bottom:5px;
-	font-size:1.5em;}
+h3 {margin-bottom:5px;font-size:1.5em;}
 
-h2+p {
-	float:left;
-	margin-right: 167px;
- 	display:block;
-	width: 450px;
-	height:auto;
-	margin-bottom: 20px;
-}
+h2+p {float:left;margin-right: 205px;display:block;width: 450px;height:auto;margin-bottom: 20px;}
 
-h4 {
-	color: #fff;
-	font-size: 16px;
-	font-family: "Myriad Pro",  Helvetica, Arial, sans-serif;
-	width: 150px;
-	float:right;
-	position:relative;
-	top:  -100px;
-	 
-}
+h4 {color: #fff;font-size: 16px;width: 150px;float:right;position:relative;top:  -100px}
 
-h5 {
-	color: #fff;
-	font-size: 14px;
-	font-family: "Myriad Pro",  Helvetica, Arial, sans-serif;
-	float:right;
-	position:relative;
-	top:-75px;
-	right:-75px;
-}
-aside {
-	margin-top: 20px;
-	margin-bottom:20px;
-	margin-right: 249px;
-	display:block;
-	width: 350px;
-	height:auto;
-	background-color:#BBB6AB;
-	color:#FF0000;
-	padding: 10px;
-	float:left;
-	 
-	 
-}
+h5 {color: #fff;font-size: 14px;font-family: "Myriad Pro",  Helvetica, Arial, sans-serif;float:right;position:relative;top:-75px;right:-75px;}
+aside {margin-top: 20px;margin-bottom:20px;margin-right: 283px;display:block;width: 350px;height:auto;background-color:#BBB6AB;color:#000000;padding: 10px;float:left;}
 
-blockquote {
-	position: absolute;
-	top: 390px;
-	left: 512px;
-	float: right;
-	display: block;
-	width: 350px;
-	height: auto;
-	background-color: #BBB6AB;
-	color: #FF0000;
-	padding: 5px;
-}
- 
+blockquote {position: absolute;top: 405px;left: 575px;float: right;display: block;width: 350px;height: auto;background-color: #BBB6AB;color: #000000;padding: 5px;}
+
+/* ------------- Forms -------------*/
+#form1 label{font-size:1.125em;}
+#form1 input {border-color:#818181;}
+#form1 input#name {margin: 2px 0 0 120px;} 
+#form1 input#address {margin: 2px 0 0 104px;} 
+#form1 input#address1 {margin: 2px 0 0 104px;} 
+#form1 input#city {margin: 2px 0 0 131px;} 
+#form1 input#state {margin: 2px 0 0 127px;} 
+#form1 input#zip {margin: 2px 0 0 96px;} 
+#form1 input#home {margin: 2px 0 0 70px;} 
+#form1 input#cell {margin: 2px 0 0 84px;}
+#form1 input#firstname{margin: 2px 0 0 85px;}
+#form1 input#lastname{margin: 2px 0 0 86px;}
+#form1 input#email{margin: 2px 0 0 123px;}
+#form1 input#email1{margin: 2px 0 0 57px;}
+#form2 label{font-size:1.125em;}
+#form2 input {border-color:#818181;}
+#form2 input#gift {margin: 2px 0 0 70px;}
+#form2 select#select {margin: 2px 0 0 90px;} 
+#form2 input#card {margin: 2px 0 0 78px;} 
+#form2 input#date {margin: 2px 0 0 61px;} 
+#form2 input#code {margin: 2px 0 0 74px;}  
 /* -------------  Main Nav ------------ */
 nav ul {
-	margin-top: 10px;
-	float: right;
-	padding: 0;
-	list-style: none;
-	position:absolute;
-	top:50px;
-	right: 80px;
-}
-nav ul li {
-    display: inline;
-    position: relative;
-    float: left;
-	 
-}
-nav li ul {
-    display: none;
-}
-nav ul li a {
-   	text-decoration: none;
-   	color: #4c655d;
-	padding: 5px 10px 5px 10px;
-	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
-	font-size: 1.5em;
-	
-}
+	margin-top: 10px;float: right;padding: 0;list-style: none;position:absolute;top:50px;right: 80px;}
+nav ul li {display: inline;position: relative;float: left;}
+nav li ul {display: none;}
+nav ul li a {text-decoration: none;color: #4c655d;padding: 5px 10px 5px 10px;font-size: 1.5em;}
 
-#small_nav p{
-	font-family:"Myriad Pro",  Helvetica, Arial, sans-serif;
-	font-size:18px;
-	color: #000;
-	
-}
+#small_nav p{font-size:18px;color: #000;}
 /* -------------  Slideshow ------------ */
 
-.slideshow {
-	margin-top:30px;
-	margin-bottom: 50px;
-}
+.slideshow {margin-top:30px;margin-bottom: 50px;}
 
 /* -------------  Articles ------------ */
-article {
-	display:inline-block;
-	background-color:#bbb6ab;
-	width:260px;
-	height: auto;
-	padding: 15px 5px 15px 15px;
-	float:left;
-	margin-right:37px;
-	margin-bottom: 50px;
-	 
-	 
-}
+article {display:inline-block;background-color:#bbb6ab;width:260px;height: auto;padding: 15px 5px 15px 15px;float:left;margin-right:37px;margin-bottom: 50px;}
 
-article p{
-	clear:both;
-	width: 260px; 
-	 
-}
-article h2{
-	font-size:1.5;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	color:#000;
-}
+article p{clear:both;width: 260px;}
+article h2{font-size:18px;color:#000;}
 
  
-/* ---------- Shopping Cart ----------*/
-.product, .product1, .product2, .product3{
-	display: block;
-	width: 495px;
-	float:left;
-}
-.phelper {
-	
-	display:block;
-	width:auto;
-	height:auto;
-	}
+/* ---------- Store----------*/
 
-.itemname, .price {
-	font-size:14px;
-}
-.productitem {
-	display:inline-block;
-	width:100px;
-	height: auto;
-	margin-right:20px;
-	margin-bottom: 40px;
-}
-.cartitem{
-	clear:both; 
-	border:1px solid #ddd; 
-	background:#fafafa; 
-	padding:6px; 
-	margin:6px 0 0; 
-	font-size:12px;
-}
-#cart-wrap {
-	display:block;
-	float:left;
-	background-color:#beb9ae;
-	border-width:thin;
-	width: 300px;
-	padding: 10px;
-	position: absolute;
-	top: 211px;
-	left: 610px;
-}
+.wrapper{display: block;width: 87.5%;height: 800px;background-color: #ECECEC;border-style: solid;border-color: black;border-width: medium;margin-bottom: 20px;padding:30px;}
+.product{display:block;width: 100px;float:left;margin-right:40px;margin-left:20px;}
+.product1{display:block;width: 100px;float:left;margin-right:40px;}
+.product2{display:block;width: 100px;float:left;margin-right:40px;}
+.product3{display:block;width: 100px;float:left;margin-right:40px;}
+.product4{display:block;width: 100px;float:left;margin-right:40px;}
+.product5{display:block;width: 100px;float:left;}
 
-#scart{
-	font-size:0.875em;
-	text-align:center;
-}
-.sidehead{
-	color:#000;
-	text-align:center;
-	font-size:1.25em;
-	padding-top:5px;
-	padding-bottom:5px;
-}
-.title{
-	margin-top:5px;
-	font-size:1em;
-	color:#322;
-	}
-.cartdropbox {
-	display:block;
-	width:280px;
-	height: 50px;
-	margin: 0 auto;
-	text-align:center;
-	background-color:#eee;
-	border-color:#969090;
-	border-width:2px;
-	border:dashed;
-	}
+.product p, span {font-size:14px;margin:4px 0;}
+.product1 p, span {font-size:14px;margin:4px 0;}
+.product2 p, span {font-size:14px;margin:4px 0;}
+.product3 p, span {font-size:14px;margin:4px 0;}
+.product4 p, span {font-size:14px;margin:4px 0;}
+.product5 p, span {font-size:14px;margin:4px 0;}
 
+form input {margin-bottom:10px;}
 /* -------------  Sections ------------ */
-section {
-	float: left;
-	margin-right:37px;
-}
-
+section {float: left;margin-right:45px;}
 
 /* -------------  Footer ------------ */
-footer {
-	clear:both;
-}
-
-}
-footer p {
-	clear:both;
-	text-align:left;
-	font-size:.75em; 
-	 
-}
+footer {clear:both;margin:0 auto;}
+footer p {clear:both;text-align:left;font-size:.75em;}
 /* -------------  Footer Nav ------------ */
-footer ul {
-	width: 600px;
-	clear: both;        
-	display: block;
-	font-size: 1.0em; /*16px*/
-	text-align: center;
-	margin-bottom: 30px;
-	margin: 0 auto;
-}
-footer ul li {
-    display: inline;
-    position: relative;
-    float: left;
-	 
-}
-footer li ul {
-    display: none;
-}
-footer ul li a {
-   	text-decoration: none;
-   	color: #4c655d;
-	padding: 5px 15px 5px 15px;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-size: 1em;
-}
+footer {width: 100%;clear:both;margin:0 auto;}
+footer+p {width: 100%;font-size:0px;}
+/* -------------  Footer Nav ------------ */
+footer ul {width: 445px;clear: both;display: block;font-size: 1.0em;margin:0 auto;}
+footer ul li {display: inline;position: relative;float: left;}
+footer li ul {display: none;}
+footer ul li a {text-decoration: none;color: #4c655d;padding: 5px 15px 5px 15px;font-size: 1em;}
